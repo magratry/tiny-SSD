@@ -58,9 +58,10 @@ test：存放测试图片
 代码结构如下：  
 1. create_data.py  
 2. train.py
-3. test.py
+3. test.py  
+  
 load_data.py  
-medel.py  
+model.py  
 plot.py  
 
 ### 1、数据准备  
