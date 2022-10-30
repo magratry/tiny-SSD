@@ -39,13 +39,18 @@ torchvision==0.9.1+cu101
     ├─test
     │      1.jpg
     │      2.jpg
-    │      3.jpg
-    │      R-C.jpg
     │      
     └─two_target_train
         │  
         └─images  
 ```  
+【data目录说明】
+background：将你自己准备的背景图片放在这里
+target：目标图片放在这里【注意：目标图片的命名按照0.png、1.png…来命名】
+one_target_train: 运行create_data.py生成的训练数据存放在这里（此处对应单目标检测，如若需要多个目标检测，建议新建文件夹存放生成的训练数据，命名只需要将“one”改为对应目标的数目）
+test：存放测试图片  
+
+
 ## 训练流程  
 ### 1、数据准备  
 我们将自己制作目标检测的数据集，只需要将目标粘入背景图中，并保持目标位置即可。
