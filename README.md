@@ -91,7 +91,7 @@ torchvision==0.9.1+cu101
   
 `python test.py`  
   
-带有目标检测框的图片：  
+测试结果展示（目标检测框左上角给出"类别：置信度"）：  
 ![ao](results/one_target.png"训练成功结果")  
 
  
