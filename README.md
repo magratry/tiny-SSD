@@ -25,16 +25,12 @@ torchvision==0.9.1+cu101
 ├─data
     ├─background
     │      000012-16347456122a06.jpg
-   	. . .
+    │	. . .
     │      191328-15136820086f91.jpg
     │      
     ├─one_target_train
-    │  │  label.csv
     │  │  
     │  └─images
-    │          155815-1499673495cf46.jpg
-	    . . .
-    │          183201-15420187218258.jpg
     │          
     ├─target
     │      0.png
@@ -47,9 +43,5 @@ torchvision==0.9.1+cu101
     │      R-C.jpg
     │      
     └─two_target_train
-        │  label.csv
         │  
         └─images
-                000012-16347456122a06.jpg
-	    . . .
-                183201-15420187218258.jpg
