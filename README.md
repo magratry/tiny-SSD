@@ -56,14 +56,19 @@ test：存放测试图片
   
 ## 训练流程  
 代码结构如下：  
-1. create_data.py  
-2. train.py
-3. test.py  
+1. create_data.py
+2. load_data.py  
+3. model.py
+4. train.py
+5. test.py
+6. plot.py
+7. util.py  
+其中，代码1，4，5为主要运行代码，其余为辅助代码。  
+主要运行代码主函数开头都有一个变量:target_num，如果设置其为'one',则对应一个目标；如果设置其为'two'，则对应两个目标。
   
-load_data.py  
-model.py  
-plot.py  
 
+  
+  
 ### 1、数据准备  
 我们会自己制作目标检测的数据集，目标将被粘入背景图中，并保存目标位置即可。  
 运行create_data.py生成训练数据，target被粘在background文件夹中的每一张图片上，粘贴的位置随机。  
