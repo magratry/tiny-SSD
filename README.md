@@ -17,7 +17,8 @@ pandas==1.3.4
 torch==1.8.1+cu101   
 torchvision==0.9.1+cu101  
   
-可以手动安装依赖，也可以直接运行以下代码  
+可以手动安装依赖，也可以直接运行以下代码   
+
 `pip install -r requirements.txt`  
 ## 数据目录介绍  
 ```  
@@ -56,7 +57,8 @@ test：存放测试图片
 ### 1、数据准备  
 我们会自己制作目标检测的数据集，只需要将目标粘入背景图中，并保存目标位置即可。  
 运行create_data.py生成训练数据，target被粘在background文件夹中的每一张图片上，粘贴的位置随机。  
-生成的新图片将存入one_target_train/images文件夹中，图片对应粘贴的位置将生成label.csv存入one_target_train文件夹中。  
+生成的新图片将存入one_target_train/images文件夹中，图片对应粘贴的位置将生成label.csv存入one_target_train文件夹中。    
+
 `python create_train.py` 
  
 
