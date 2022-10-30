@@ -19,22 +19,37 @@ torchvision==0.9.1+cu101
   
 可以手动安装依赖，也可以直接运行以下代码  
 `pip install -r requirements.txt`  
-## 文件目录介绍  
+## 数据目录介绍  
+```  
+.
 ├─data
-  │  create_train.py
-  │  
-  ├─background
-  │      000012-16347456122a06.jpg
-  │	    ...
-  │      191313-1519470793f344.jpg
-  │      191328-15136820086f91.jpg
-  │          
-  ├─target
-  │      0.jpg
-  │      0.png
-  │      1.png
-  │      2.png
-  │      
-  └─test
-         1.jpg
-         2.jpg
+    ├─background
+    │      000012-16347456122a06.jpg
+   	. . .
+    │      191328-15136820086f91.jpg
+    │      
+    ├─one_target_train
+    │  │  label.csv
+    │  │  
+    │  └─images
+    │          155815-1499673495cf46.jpg
+	    . . .
+    │          183201-15420187218258.jpg
+    │          
+    ├─target
+    │      0.png
+    │      1.png
+    │      
+    ├─test
+    │      1.jpg
+    │      2.jpg
+    │      3.jpg
+    │      R-C.jpg
+    │      
+    └─two_target_train
+        │  label.csv
+        │  
+        └─images
+                000012-16347456122a06.jpg
+	    . . .
+                183201-15420187218258.jpg
