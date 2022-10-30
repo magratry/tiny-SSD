@@ -65,7 +65,7 @@ torchvision==0.9.1+cu101
 7. util.py
   
 其中，代码1，4，5为主要运行代码，其余为辅助代码。  
-主要运行代码主函数开头都有一个变量：target_num，如果设置其为'one'，则对应一个目标；如果设置其为'two'，则对应两个目标。
+主要运行代码主函数中有一个变量：target_num，如果设置其为'one'，则对应一个目标；如果设置其为'two'，则对应两个目标。
   
 
 ### 1、数据准备  
@@ -76,7 +76,8 @@ torchvision==0.9.1+cu101
 `python create_train.py`   
   
 ### 2、模型训练  
-
+在train.py中修改batch_size以及epoch之后运行即可  
+`python train.py`   
  
 
 
