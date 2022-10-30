@@ -5,15 +5,14 @@
 2. 提供readme文件，说明清楚环境配置、训练流程   
 3. 提供简易测试代码及预训练模型   
 4. 贴出检测效果  
-5. 效果提升  
-6. 
+5. 效果提升   
 ## 环境配置
-CUDA Version = 10.1（可选）
-Python = 3.9
-PyTorch = 1.8.1
-matplotlib==3.5.3
-numpy==1.20.3
-opencv_python_headless==4.6.0.66
-pandas==1.3.4
-torch==1.8.1+cu101
+CUDA Version = 10.1（可选）  
+Python = 3.9  
+PyTorch = 1.8.1  
+matplotlib==3.5.3  
+numpy==1.20.3  
+opencv_python_headless==4.6.0.66  
+pandas==1.3.4  
+torch==1.8.1+cu101   
 torchvision==0.9.1+cu101
