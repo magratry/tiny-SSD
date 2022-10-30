@@ -18,4 +18,4 @@ torch==1.8.1+cu101
 torchvision==0.9.1+cu101  
   
 可以手动安装依赖，也可以直接运行以下代码  
-'pip install -r requirements_pip.txt'
+`pip install -r requirements_pip.txt`
