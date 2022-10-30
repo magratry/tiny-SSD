@@ -56,8 +56,9 @@ test：存放测试图片
 ### 1、数据准备  
 我们会自己制作目标检测的数据集，只需要将目标粘入背景图中，并保存目标位置即可。  
 运行create_data.py生成训练数据，target被粘在background文件夹中的每一张图片上，粘贴的位置随机。  
-生成的新图片将存入one_target_train/images文件夹中，图片对应粘贴的位置将生成label.csv存入one_target_train文件夹中。
-`python create_train.py`  
+生成的新图片将存入one_target_train/images文件夹中，图片对应粘贴的位置将生成label.csv存入one_target_train文件夹中。  
+`python create_train.py` 
+ 
 
 
 
