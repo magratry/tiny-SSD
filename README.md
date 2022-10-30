@@ -59,6 +59,9 @@ test：存放测试图片
 1. create_data.py  
 2. train.py
 3. test.py
+load_data.py  
+medel.py  
+plot.py  
 
 ### 1、数据准备  
 我们会自己制作目标检测的数据集，目标将被粘入背景图中，并保存目标位置即可。  
