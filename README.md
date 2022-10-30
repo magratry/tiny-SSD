@@ -40,6 +40,8 @@ torchvision==0.9.1+cu101
     ├─test
     │      1.jpg
     │      2.jpg
+    │      3.jpg
+    │      4.jpg
     │      
     └─two_target_train
         │  
