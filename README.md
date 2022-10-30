@@ -70,7 +70,7 @@ torchvision==0.9.1+cu101
 
 ### 1、数据准备  
 我们会自己制作目标检测的数据集，目标将被粘入背景图中，并保存目标位置即可。  
-在create_data.py中修改对应的target_num之后运行生成训练数据，target被粘在background文件夹中的每一张图片上，粘贴的位置随机。  
+在create_data.py中修改对应的target_num之后，运行生成训练数据，target被粘在background文件夹中的每一张图片上，粘贴的位置随机。  
 生成的新图片将存入one_target_train/images文件夹中，图片对应粘贴的位置将生成label.csv存入one_target_train文件夹中。    
 
 `python create_train.py`   
@@ -81,9 +81,13 @@ torchvision==0.9.1+cu101
 
 `python train.py`  
   
+如果训练成功，运行框将如下图所示：  
+![ao](./results/train_result.png"训练成功结果")  
+  
+  
 ### 3、模型测试  
 在test.py中修改对应的target_num之后运行。  
-
+运行结果将展示带有目标检测框的图片。
 
  
 
