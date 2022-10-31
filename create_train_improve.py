@@ -20,10 +20,6 @@ train_transformer=transforms.Compose([
 ])
 
 
-transform_train=nn.ModuleList([
-    transforms.ColorJitter(),
-])
-
 
 def add_alpha_channel(img):
     """ 为jpg图像添加alpha通道 """
