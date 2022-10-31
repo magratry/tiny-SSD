@@ -109,8 +109,7 @@ torchvision==0.9.1+cu101
   
 `生成训练数据`
 `python create_train_improve.py`  
-`将target_num设置为‘improve’再训练模型`  
-`python test.py`  
+`将target_num设置为‘improve’再训练模型`  `python test.py`  
   
 提升效果展示  
 ![ao](results/one_target.png"训练成功结果")  
