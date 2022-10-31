@@ -112,14 +112,14 @@ torchvision==0.9.1+cu101
 `将target_num设置为‘improve’再训练模型`  `python test.py`  
   
 提升效果展示  
-![ao](results/one_target_improve.png"训练成功结果")  
+![image](https://github.com/magratry/tiny-SSD/blob/main/results/two_target.png?raw=true)  
   
 2.考虑多目标检测  
 原来一张图有一个目标，现在一张图粘入两个目标  
 只需要将各部分代码的target_num改为‘two’即可。  
   
 提升效果展示  
-![ao](results/two_target.png"训练成功结果")  
+![image](https://github.com/magratry/tiny-SSD/blob/main/results/one_improve.png?raw=true)  
 
  
 
