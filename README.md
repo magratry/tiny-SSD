@@ -119,7 +119,7 @@ torchvision==0.9.1+cu101
 只需要将各部分代码的target_num改为‘two’即可。  
   
 提升效果展示  
-![image](https://github.com/magratry/tiny-SSD/blob/main/results/one_improve.png?raw=true)  
+![image](https://github.com/magratry/tiny-SSD/blob/main/results/one_target_improve.png?raw=true)  
 
  
 
