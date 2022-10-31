@@ -103,10 +103,24 @@ torchvision==0.9.1+cu101
 测试结果展示（目标检测框左上角给出"类别：置信度"）：  
 ![ao](results/one_target.png"训练成功结果")  
   
-### 3、效果提升  
+### 4、效果提升  
 1. 在“数据准备”阶段做效果提升  
-原来目标图片是直接贴入背景图，现在对目标图片做transform(包括任意角度旋转与色域变化)之后再贴入背景图，使目标更多样化
-
+原来目标图片是直接贴入背景图，现在对目标图片做transform(包括任意角度旋转与色域变化)之后再贴入背景图，使目标更多样化  
+  
+`生成训练数据`
+`python create_train_improve.py`  
+`将target_num设置为‘improve’再训练模型`  
+`python test.py`  
+  
+提升效果展示  
+![ao](results/one_target.png"训练成功结果")  
+  
+2.考虑多目标检测  
+原来一张图有一个目标，现在一张图粘入两个目标  
+只需要将各部分代码的target_num改为‘two’即可。  
+  
+提升效果展示  
+![ao](results/one_target.png"训练成功结果")  
 
  
 
