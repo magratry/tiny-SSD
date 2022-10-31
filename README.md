@@ -90,11 +90,11 @@ torchvision==0.9.1+cu101
 
 `python train.py`  
   
-如果训练成功，运行框将如下图所示：  
-![ao](results/train_result.png"训练成功结果")  
   
   
 ### 3、模型测试  
+调用net文件夹中预训练好的网络测试模型效果  
+
 在test.py中修改对应的target_num之后运行。  
 运行结果将展示带有目标检测框的图片。  
   
