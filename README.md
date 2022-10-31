@@ -101,7 +101,7 @@ torchvision==0.9.1+cu101
 `python test.py`  
   
 测试结果展示（目标检测框左上角给出"类别：置信度"）：  
-![ao](results/one_target.png"训练成功结果")  
+![image](https://github.com/magratry/tiny-SSD/blob/main/results/one_target.png?raw=true)  
   
 ### 4、效果提升  
 1. 在“数据准备”阶段做效果提升  
