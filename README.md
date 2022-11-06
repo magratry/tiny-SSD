@@ -123,6 +123,18 @@ torchvision==0.9.1+cu101
 提升效果展示  
 ![image](https://github.com/magratry/tiny-SSD/blob/main/results/one_target_improve.png?raw=true)  
 
+
+```  
+.
+dataset_mindrecord/
+├── test.mindrecord
+├── test.mindrecord.db
+├── train.mindrecord
+├── train.mindrecord.db
+├── val.mindrecord
+└── val.mindrecord.db
+```  
+
  
 
 
